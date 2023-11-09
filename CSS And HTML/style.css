@@ -1,0 +1,61 @@
+html {
+    --bgcolor: green;
+    --standard-font-size: 20px;
+    --h1-font-size:  calc(var)(var(--standard-font-size) *2);
+    --p-font-size: calc(var)(var(--standard-font-size) *1.5);
+    --divpadding: 20px;
+    /* --bgdiv:red;  */
+}
+
+ul li:not([data-tag]){
+    color:blue;
+    background-color: black;
+}
+
+ul li[data-tag*=spicy] {
+    color: red;
+}
+
+.all {
+    color: white;
+}
+
+div h1 {
+    text-decoration: underline;
+}
+
+body {
+    background: var(--bgcolor);
+    font-size: var(--p-font-size);
+}
+
+#banner {
+    color: purple;
+    background-color: white;
+}
+
+#banner::before {
+    content: 'Hello world';
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: block;
+}
+
+#banner:hover::first-letter {
+    text-transform: lowercase;
+}
+
+#banner::after {
+    content: 'bye world';
+}
+
+input + #banner{
+    background: none;
+}
+
+h1 {
+    font-size: calc(30px+20em);
+}
+
+

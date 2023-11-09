@@ -1,0 +1,273 @@
+body {
+  margin: 0;
+  background-color: #f2eee1;
+  overflow-x: hidden;
+}
+.container {
+  background-color: rgba(148, 111, 0, 0.9);
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* height: 2000px; */
+  width: 100%;
+  gap: 20px;
+  padding: 50px;
+}
+.circle-item {
+  /* color: #ffffff; */
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  height: 320px;
+  width: 320px;
+  min-width: 320px;
+  min-height: 320px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: start;
+  padding: 60px;
+}
+.imgcontainer {
+  display: flex;
+  border: 2px solid #936f01;
+  border-radius: 45px;
+  height: 81px;
+  width: 83px;
+  align-items: center;
+  justify-content: center;
+  min-height: 81px;
+  min-width: 83px;
+}
+.medicines {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #936f01;
+}
+.effective {
+  font-size: 17px;
+  font-weight: 450;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  height: 234px;
+  margin-bottom: 25px;
+}
+.Evidenced {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #936f01;
+}
+.data {
+  font-size: 16px;
+  font-weight: 450;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  height: 234px;
+  margin-bottom: 25px;
+}
+.programs {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #936f01;
+}
+.body {
+  font-size: 15px;
+  font-weight: 450;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  height: 234px;
+  margin-bottom: 25px;
+}
+.virtual {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #936f01;
+}
+.busy {
+  font-size: 15px;
+  font-weight: 450;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  height: 234px;
+  margin-bottom: 25px;
+}
+.why-choose-us {
+  font-size: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 26px;
+  /* padding: 14px; */
+  gap: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.oxc-div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  flex-direction: column;
+  margin: 26px;
+  gap: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  gap: 45px;
+}
+.oxcimgcontainer img {
+  height: 283px;
+  width: 263px;
+}
+.card {
+  background-color: rgba(147, 111, 1, 0.5);
+  padding: 50px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+  border-radius: 3.5px;
+  border-radius: 7px;
+  transition: transform 0.3s;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.our-programs {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  flex-direction: column;
+  margin: 26px;
+  gap: 24px;
+  text-transform: capitalize;
+  font-weight: 550;
+}
+.programs-container {
+  display: grid;
+  color: #f5f5f5;
+  font-weight: 150;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  gap: 150px;
+  margin-top: 45px;
+}
+.diamond {
+  height: 213px;
+  width: 212px;
+  background-color: #936f01;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 26px;
+  display: flex;
+  transform: rotate(45deg);
+  position: relative;
+}
+.diamond-text {
+  transform: rotate(-45deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.diamond-behind {
+  height: 213px;
+  width: 212px;
+  position: absolute;
+  border: 2px solid #936f01;
+  right: -10%;
+  /* left: -240px; */
+  /* bottom: -15%; */
+  top: -10%;
+}
+.lotus {
+  height: 442px;
+  width: 596px;
+  position: absolute;
+  left: -70px;
+  bottom: -33%;
+}
+
+.healing-stories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 65px;
+  margin-top: 350px;
+  color: var(--Black, #202020);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  text-transform: capitalize;
+  padding-right: 600px;
+  padding-left: 600px;
+}
+
+.stories-container {
+  display: inline-flex;
+  height: 263px;
+  font-size: 16px;
+  padding: 63px 101px 62px 124px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #fff;
+  margin-top: 85px;
+  box-shadow: 0px 4px 4px 0px;
+}
+
+.check {
+  height: 81px;
+  width: 81px;
+  position: absolute;
+  left: 10%;
+  bottom: -84%;
+}
+.check-1 {
+  height: 81px;
+  width: 81px;
+  position: absolute;
+  right: 10%;
+  bottom: -84%;
+}
+
+.checker-container {
+  /* position: absolute; */
+  bottom: -100%;
+  margin-bottom: 16px;
+  margin-top: 20px;
+}
+
+.book-appointment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* width: 342px; */
+  height: 54px;
+}
